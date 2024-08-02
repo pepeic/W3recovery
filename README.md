@@ -15,8 +15,9 @@ If you don't have OpenCL installed, then you need to install it from your GPU ve
 ```sh
 python3 main.py
 ```
+> **NOTE**: You can check if OpenCL is installed by typing `clinfo` into terminal. Usually it indicates OpenCL is present in the system.
 
-If you want to provide more passwords to check, then you can create a `.txt` file and place every password you want to check on the new line, after that you simply pass the path to the file as an argument using `-p` option. For example let's say the file called passwords.txt and placed in the script's folder, then the command will look like this:
+If you want to provide more passwords to check, then you can create a `.txt` file and place every password you want to check **on the new line**, after that you simply pass the path to the file as an argument using `-p` option. For example let's say the file called passwords.txt and placed in the script's folder, then the command will look like this:
 ```sh
 python3 main.py -p passwords.txt
 ```

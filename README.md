@@ -13,12 +13,12 @@ pip install -r requirements.txt
 
 then you simply run the following command:
 ```sh
-python main.py
+python3 main.py
 ```
 
 If you want to provide more passwords to check, then you can create a `.txt` file and place every password you want to check on the new line, after that you simply pass the path to the file as an argument using `-p` option. For example let's say the file called passwords.txt and placed in the script's folder, then the command will look like this:
 ```sh
-python main.py -p passwords.txt
+python3 main.py -p passwords.txt
 ```
 
 > **NOTE**: All the passwords are checked only once for a wallet.

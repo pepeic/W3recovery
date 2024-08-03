@@ -9,7 +9,7 @@ First you need to [download python](https://www.python.org/downloads/) and insta
 pip install -r requirements.txt
 ```
 
-> **NOTE**: This project requires Python 3.7 or higher.
+> **NOTE**: This project requires Python 3.10 or higher.
 
 If you don't have OpenCL installed, then you need to install it from your GPU vendor. If you want to use CPU bruteforce only, then you need to install OpenCL anyway. You can download Intel OpenCL runtime (also works for AMD processors) [here](https://www.intel.com/content/www/us/en/developer/articles/tool/opencl-drivers.html), then you simply run the following command:
 ```sh
